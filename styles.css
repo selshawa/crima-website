@@ -1,0 +1,28 @@
+/* Basic reset and layout */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #ffffff;
+  color: #404648;
+}
+
+/* Header styling */
+header {
+  background-color: #df1b12;
+  padding: 2rem 1rem;
+  color: white;
+}
+
+.logo {
+  max-width: 80px; /* adjust as needed */
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+/* Main content styling */
+main {
+  padding: 2rem;
+}
