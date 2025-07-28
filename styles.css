@@ -1,28 +1,54 @@
-/* Basic reset and layout */
+/* General reset */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  text-align: center;
   background-color: #ffffff;
   color: #404648;
+  text-align: center;
 }
 
-/* Header styling */
-header {
-  background-color: #df1b12;
-  padding: 2rem 1rem;
-  color: white;
+/* Top logo area (white) */
+.logo-header {
+  background-color: white;
+  padding: 2rem 0;
 }
 
 .logo {
-  max-width: 80px; /* adjust as needed */
+  max-width: 200px; /* adjust size here */
   height: auto;
-  display: block;
-  margin: 0 auto 1rem;
 }
 
-/* Main content styling */
+/* Red header area */
+.main-header {
+  background-color: #df1b12;
+  color: white;
+  padding: 1.5rem 1rem;
+}
+
+.main-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.main-header p {
+  margin: 0.5rem 0 1rem;
+  font-size: 1.2rem;
+}
+
+/* Navigation links */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
 main {
   padding: 2rem;
 }
