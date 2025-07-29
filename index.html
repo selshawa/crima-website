@@ -17,29 +17,114 @@
   <header class="main-header">
     <h1>CRIMA</h1>
     <p>Evidence-based Management of Climate Risks</p>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="#about">About</a>
-      <a href="#team">Partners</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CRIMA – Evidence-Based Management of Climate Risks</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="logo-header">
+    <img src="crima_logo.png" alt="CRIMA logo" class="logo" />
   </header>
 
-  <!-- Main Content -->
+  <div class="red-bar">
+    <h1>CRIMA</h1>
+    <p>Evidence-Based Management of Climate and Environmental Risks</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#objectives">Objectives</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#partners">Partners</a>
+      <a href="#funding">Funding</a>
+    </nav>
+  </div>
+
   <main>
     <section id="about">
       <h2>About the Project</h2>
-      <p>CRIMA supports local and regional governments in designing data-driven climate strategies. We integrate scientific methods, stakeholder engagement, and digital decision-support tools to manage climate risks effectively.</p>
+      <p><strong>CRIMA</strong> focuses on the development of a decision-support system to enhance climate and environmental risk management. The system semantically integrates heterogeneous sources of information using a Virtual Knowledge Graph (VKG) and is powered by AI-supported querying of Big Earth Data.</p>
+      <p>It aims to help non-technical users query and interpret complex environmental data through natural language and conceptual models like impact chains. The system will be evaluated in two application scenarios in the Alpine region: one on hydrometeorological events, and one on water scarcity.</p>
     </section>
 
-    <section id="team">
+    <section id="objectives">
+      <h2>Project Objectives</h2>
+      <ul>
+        <li>Develop a VKG that integrates quantitative Earth Observation (EO) data and scientific literature using semantic web technologies.</li>
+        <li>Enable AI-assisted querying and analysis of Big Earth Data.</li>
+        <li>Apply innovative conceptual models (e.g., impact chains) to describe climate risk components and their interrelations.</li>
+        <li>Use openEO APIs and extensions to support data access and processing.</li>
+        <li>Develop user-friendly interfaces including SPARQL and LLM/NLP querying.</li>
+        <li>Demonstrate the system in real-world application scenarios.</li>
+      </ul>
+    </section>
+
+    <section id="questions">
+      <h2>Research Questions</h2>
+      <p>The research is based on three pillars: VKG data modeling, impact chain conceptualization, and integration with openEO.</p>
+      <ol>
+        <li>How can impact chains be formally modeled within VKGs using OWL 2 QL?</li>
+        <li>How can openEO processes be integrated into VKG queries, and which parts should be delegated?</li>
+        <li>How can dynamic EO data be semantically linked to VKG instances of impact chain concepts?</li>
+      </ol>
+    </section>
+
+    <section id="challenges">
+      <h2>Challenges and Opportunities</h2>
+      <ul>
+        <li>Integrating multiple knowledge domains: environmental data, vulnerability, and adaptation measures.</li>
+        <li>Making a rich body of scientific knowledge accessible and usable by stakeholders.</li>
+        <li>Supporting non-technical users through intuitive interfaces and semantic tools.</li>
+      </ul>
+    </section>
+
+    <section id="synergies">
+      <h2>Synergies</h2>
+      <p>CRIMA contributes to climate change adaptation planning in South Tyrol and the broader Alpine region. It supports key SDG priorities: Sustainable Cities and Communities (SDG 11), Climate Action (SDG 13), and Life on Land (SDG 15).</p>
+    </section>
+
+    <section id="timeline">
+      <h2>Timeline and Milestones</h2>
+      <p>The official project kick-off took place in February 2025. The project spans 36 months and includes the following milestones:</p>
+      <ul>
+        <li><strong>MS1 (Month 4):</strong> Requirements analysis (Completed)</li>
+        <li><strong>MS2 (Month 20):</strong> Proof of concept – Basic CRIMA system with impact chain modeling and limited query capabilities</li>
+        <li><strong>MS3 (Month 32):</strong> Final system – Complete VKG integration, full user interface, ready for pilot scenarios</li>
+        <li><strong>MS4 (Month 36):</strong> Evaluation of system through stakeholder testing and demonstration</li>
+      </ul>
+    </section>
+
+<!--     <section id="work-packages">
+      <h2>Work Packages</h2>
+      <ul>
+        <li><strong>WP1:</strong> Project coordination, communication, and website (Eurac Research)</li>
+        <li><strong>WP2:</strong> Modeling impact chains using VKG (Free University of Bozen-Bolzano)</li>
+        <li><strong>WP3:</strong> Natural language querying of VKG (Ontopic)</li>
+        <li><strong>WP4:</strong> Integration of openEO and VKG, development of query translation (Free University of Bozen-Bolzano)</li>
+        <li><strong>WP5:</strong> Application scenarios and risk assessment tools (Eurac Research)</li>
+      </ul>
+    </section> -->
+
+    <section id="partners">
       <h2>Partners</h2>
-      <p>Coming soon...</p>
+      <ul>
+        <li><strong>Eurac Research</strong> – Project coordination and stakeholder engagement</li>
+        <li><strong>Free University of Bozen-Bolzano</strong> – Semantic modeling and openEO integration</li>
+        <li><strong>Ontopic</strong> – Development of natural language interfaces</li>
+      </ul>
+      <div class="partner-logos">
+        <img src="eurac_logo.png" alt="Eurac Research" />
+        <img src="unibz_logo.png" alt="Free University of Bozen-Bolzano" />
+        <img src="ontopic_logo.png" alt="Ontopic" />
+      </div>
     </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: crima@eurac.edu (placeholder)</p>
+    <section id="funding">
+      <h2>Funding</h2>
+      <p>CRIMA is funded under the <strong>Italian National Recovery and Resilience Plan (PNRR)</strong> as part of the European Union’s NextGenerationEU initiative.</p>
     </section>
   </main>
 
