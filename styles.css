@@ -20,9 +20,8 @@ a:hover {
 .main-header {
   background-color: #df1b12;
   display: flex;
-/*   justify-content: space-between; */
-/*   align-items: center; */
-  text-align: center;
+  justify-content: flex-end; 
+  align-items: center;
   padding: 10px 20px;
 }
 
