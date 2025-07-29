@@ -66,6 +66,7 @@ a:hover {
 
 .logo {
   height: 400px;
+  max-width: 100%;
 }
 
 /* Main layout */
@@ -92,11 +93,15 @@ h2 {
 }
 
 .partnerlogo {
-  height: 80px;
+  max-width: 100%;
+  height: auto;
+  max-height: 80px;
 }
 
 .misclogo {
-  height: 50px;
+  max-width: 100%;
+  height: auto;
+  max-height: 50px;
 }
 
 /* Footer */
