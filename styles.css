@@ -94,14 +94,14 @@ h2 {
 
 .partnerlogo {
   max-width: 100%;
-  height: auto;
-  max-height: 80px;
+  height: 80px;
+/*   max-height: 50%; */
 }
 
 .misclogo {
   max-width: 100%;
-  height: auto;
-  max-height: 50px;
+  height: 50px;
+/*   max-height: 50%; */
 }
 
 /* Footer */
