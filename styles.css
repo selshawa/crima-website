@@ -6,16 +6,6 @@ body {
   text-align: left;
 }
 
-a {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 /* General in-text links (red)*/
 main a,
 footer a {
@@ -43,6 +33,7 @@ footer a:hover {
 /* Top red nav bar */
 .main-header {
   background-color: #df1b12;
+  padding: 1.2rem 2rem; 
   display: flex;
   justify-content: flex-end; 
   align-items: center;
@@ -51,6 +42,18 @@ footer a:hover {
 
 .main-header a {
   margin-left: 20px;
+}
+
+
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* White background logo header */
