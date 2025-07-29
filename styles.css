@@ -19,6 +19,12 @@ body {
   height: auto;
 }
 
+
+.partnerlogo {
+/*   max-width: 400px; /* adjust size here */ */
+  height: 200px;
+}
+
 /* Red header area */
 .main-header {
   background-color: #df1b12;
