@@ -58,14 +58,14 @@ a:hover {
 
 /* White background logo header */
 .logo-header {
-/*   background-color: white;
-  padding: 10px 0; */
-/*   text-align: center; */
-/*   padding-left: 10px; */
+  background-color: white;
+  padding: 10px 0;
+  text-align: center;
+  padding-left: 10px;
 
-/*  
+ 
   align-items: center;
-  justify-content: center; */
+  justify-content: center;
   
   background-image: url('crima_banner.png'); 
   background-size: cover;
@@ -74,15 +74,21 @@ a:hover {
 
   width: 100%;
   height: auto; 
-  
+/*   
   display: flex;
-  align-items: flex-start; /* align to top */
-  justify-content: flex-start; /* align to left */
-/*   padding: 20px;  */
+  align-items: flex-start; 
+  justify-content: flex-start; 
+  padding: 20px;  */
 }
 }
 
-
+/* White translucent box behind logo */
+.logo-box {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.8); /* semi-transparent white */
+  padding: 10px 20px;
+  border-radius: 8px;
+}
 
 .logo {
   height: 250px;
