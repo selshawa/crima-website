@@ -60,9 +60,13 @@ a:hover {
 .logo-header {
 /*   background-color: white;
   padding: 10px 0; */
-  text-align: center;
+/*   text-align: center; */
 /*   padding-left: 10px; */
 
+/*  
+  align-items: center;
+  justify-content: center; */
+  
   background-image: url('crima_banner.png'); 
   background-size: cover;
   background-position: center;
@@ -72,8 +76,10 @@ a:hover {
   height: auto; 
   
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start; /* align to top */
+  justify-content: flex-start; /* align to left */
+/*   padding: 20px;  */
+}
 }
 
 
