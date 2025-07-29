@@ -16,6 +16,30 @@ a:hover {
   text-decoration: underline;
 }
 
+/* General in-text links (red)*/
+main a,
+footer a {
+  color: #df1b12;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main a:hover,
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Navigation bar links (white) */
+.main-header nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-header nav a:hover {
+  text-decoration: underline;
+}
+
 /* Top red nav bar */
 .main-header {
   background-color: #df1b12;
@@ -69,7 +93,7 @@ h2 {
 }
 
 .misclogo {
-  height: 200px;
+  height: 50px;
 }
 
 /* Footer */
