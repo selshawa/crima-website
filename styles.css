@@ -11,11 +11,11 @@ body {
 /* Top logo area (white) */
 .logo-header {
   background-color: white;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .logo {
-  max-width: 200px; /* adjust size here */
+  max-width: 400px; /* adjust size here */
   height: auto;
 }
 
