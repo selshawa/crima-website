@@ -28,7 +28,7 @@ footer a:hover {
 }
 
 .main-header nav a:hover {
-  text-decoration: underline;
+  text-decoration: underline overline;
 }
 
 /* Top red nav bar */
@@ -55,7 +55,6 @@ a {
   color: white;
   text-decoration: none;
   font-weight: 500;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 a:hover {
