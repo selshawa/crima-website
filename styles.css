@@ -78,7 +78,7 @@ a:hover {
 
   .main-header nav a {
     display: block;
-    padding: 0px 0px;
+    padding: 10px 5px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     width: 80%;
     text-align: center;
@@ -171,7 +171,8 @@ h2 {
 
 .diagram {
   max-width: 100%;
-  height: 400px;
+/*   height: 400px; */
+  height: auto;
   width: auto;             
   object-fit: contain;
 }
