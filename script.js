@@ -1,5 +1,4 @@
-
-<!--  Script for toggling menu options  -->
+// <!--  Script for toggling menu options  -->
   <script>
   document.addEventListener("DOMContentLoaded", function () {
     const burger = document.querySelector(".burger");
