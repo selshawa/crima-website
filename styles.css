@@ -70,7 +70,7 @@ a:hover {
   
   background-image: url('crima_banner_with_logo.png'); 
   background-size: cover;
-  background-position: center;
+  background-position: top left;
   background-repeat: no-repeat;
 
   width: 100%;
