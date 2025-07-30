@@ -144,6 +144,13 @@ h2 {
   object-fit: contain;
 }
 
+.diagram {
+  max-width: 100%;
+  height: 400px;
+  width: auto;             
+  object-fit: contain;
+}
+
 /* Footer */
 footer {
   text-align: center;
