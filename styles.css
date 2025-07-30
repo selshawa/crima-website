@@ -9,7 +9,7 @@ body {
 /* General in-text links (red)*/
 main a,
 footer a {
-  color: #df1b12;
+  color: #016382;
   text-decoration: none;
   font-weight: bold;
 }
@@ -33,7 +33,7 @@ footer a:hover {
 
 /* Top red nav bar */
 .main-header {
-  background-color: #df1b12;
+  background-color: #016382;
 /*   padding: 1.5rem 1.5rem;  */
   display: flex;
   justify-content: center; 
@@ -72,7 +72,7 @@ a:hover {
 /*   align-items: left; */
 /*   justify-content: center; */
   
-  background-image: url('assets/crima_banner_with_logo.png'); 
+  background-image: url('assets/crima_banner_blue.png'); 
   background-size: cover;
   background-position: top left;
   background-repeat: no-repeat;
@@ -116,7 +116,7 @@ main {
 /* Section titles */
 h2 {
   margin-top: 40px;
-  color: #df1b12;
+  color: #016382;
 }
 
 /* Partner logos */
