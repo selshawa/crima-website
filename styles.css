@@ -71,14 +71,17 @@ a:hover {
   }
 
   .main-header nav {
+    display: flex;
     flex-direction: column;
     width: 100%;
   }
 
   .main-header nav a {
+    display: block;
     padding: 10px 15px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     width: 100%;
+    text-align: center;
   }
 }
 
