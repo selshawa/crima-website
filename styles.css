@@ -66,8 +66,8 @@ a:hover {
   .main-header {
     flex-direction: column;
     align-items: flex-start;
-    overflow-x: unset; /* prevents scrolling */
-    white-space: normal; /* allows wrapping */
+/*     overflow-x: unset; 
+    white-space: normal;  */
   }
 
   .main-header nav {
@@ -78,7 +78,7 @@ a:hover {
 
   .main-header nav a {
     display: block;
-    padding: 10px 15px;
+    padding: 10px 10px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     width: 100%;
     text-align: center;
