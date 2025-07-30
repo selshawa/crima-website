@@ -141,14 +141,14 @@ h2 {
   color: #0b6c88;
 }
 
-/* Partner logos */
-.partner-logos {
+/* Pictures and diagrams */
+.images {
   display: flex;
-  gap: 30px;
+  gap: 0px;
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .partnerlogo {
