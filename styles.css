@@ -28,7 +28,7 @@ footer a:hover {
 }
 
 .main-header nav a:hover {
-  text-decoration: underline overline;
+  text-decoration: overline;
 }
 
 /* Top red nav bar */
