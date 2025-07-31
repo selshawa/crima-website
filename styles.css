@@ -62,14 +62,10 @@ a:hover {
 }
 
 /* nav list and active remove to revert  */
-.nav-list {
-  display: none;
+.burger {
+  display: none; /* hide it by default */
 }
 
-.nav-list.active {
-  display: flex;
-  flex-direction: column;
-}
 
 
 @media (max-width: 768px) {
@@ -80,6 +76,18 @@ a:hover {
     white-space: normal;  */
   }
 
+    
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .nav-list.active {
+    display: flex;
+    flex-direction: column;
+  }
+  
   .burger {
     display: block;
     font-size: 20px;
@@ -100,6 +108,8 @@ a:hover {
     color: white;
     text-decoration: none;
   }
+
+  
 /*   bottom part to revert */
 /*   .main-header nav {
     display: flex;
