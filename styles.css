@@ -227,3 +227,10 @@ footer {
   color: #666;
   margin-top: 60px;
 }
+
+.footer-credit {
+  font-size: 0.85em;
+  margin-top: 5px;
+  color: #666;
+}
+
