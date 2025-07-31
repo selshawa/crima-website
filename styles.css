@@ -148,7 +148,7 @@ a:hover {
   background-position: top left;
   background-repeat: no-repeat;
 
-  max-width: 100%;
+  width: 100%;
 /*   height: 500px;  */
   aspect-ratio: 3 / 1; /* Maintains shape without fixed height */
   display: block;
@@ -158,6 +158,8 @@ a:hover {
   align-items: flex-start; 
   justify-content: flex-start; 
 /*   padding: 20px;  */
+
+  cursor: pointer;
 }
 
 
