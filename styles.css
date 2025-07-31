@@ -231,6 +231,14 @@ footer {
 .footer-credit {
   font-size: 0.85em;
   margin-top: 5px;
-  color: #666;
+  color: #aaa;
 }
 
+.footer-credit a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.footer-credit a:hover {
+  text-decoration: underline;
+}
