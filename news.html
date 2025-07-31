@@ -1,3 +1,11 @@
+<!--
+  File: news.html
+  Description: This page presents updates about the CRIMA project.
+  Author: Sahba El-Shawa
+  Organization: Eurac Research
+  Last updated: July 2025
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,15 +17,14 @@
 </head>
 <body>
 
-  <!-- White background logo section -->
+  <!-- Banner header clickable for index page -->
   <a href="index.html" class="banner-link">
     <div class="logo-header"></div>
   </a>
       
 
-  <!-- Red top bar with nav -->
+  <!-- Navigation bar showing pages - resizes automatically to menu button on small screens -->
   <div class="main-header">
-<!--     <img src="crima_logo_simple.png" alt="CRIMA logo" height="30" /> -->
     <button class="burger" aria-label="Toggle menu">☰ Menu</button>
     <nav class="nav-list">
       <a href="index.html">About</a>
@@ -26,22 +33,11 @@
       <a href="timeline.html">Timeline</a>
       <a href="partners.html">Partners</a> 
       <a href="news.html">News</a> 
-<!--       <a href="#funding">Funding</a>
-<!--     <nav class="navbar">
-      <div class="menu-toggle" id="mobile-menu">
-        &#9776; <span class="menu-text">Menu</span>
-      </div>
-      <ul class="nav-list">
-        <li><a href="index.html">About</a></li>
-        <li><a href="objectives.html">Objectives</a></li>
-        <li><a href="methodology.html">Methodology</a></li>
-        <li><a href="timeline.html">Timeline</a></li>
-        <li><a href="partners.html">Partners</a></li>
-      </ul> -->
     </nav>
   </div>
 
   <main>
+    <!-- News section - updates on project progress and milestones -->
     <section id="news">
       <h2>February 20, 2025</h2>
       <h3><strong>Project Kick-off</strong></h3>
@@ -54,12 +50,15 @@
     </section>
   </main>
 
-  <!-- Footer -->
+
+  <!-- Footer - copyright statement and credit -->
   <footer>
     <p>&copy; 2025 <a href="https://www.eurac.edu/" target="_blank">Eurac Research</a></p>
     <p class="footer-credit">Website created by <a href="mailto:sahba.elshawa@eurac.edu">Sahba El-Shawa</a></p>
   </footer>
 
+
+<!-- Javascript to enable menu toggle on small screens -->
 <script src="script.js"></script>
 
 </body>
