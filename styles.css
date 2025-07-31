@@ -127,6 +127,10 @@ a:hover {
   } */
 }
 
+.banner-link {
+  display: block;
+  text-decoration: none;
+}
 
 /* Banner background logo header */
 .logo-header {
@@ -155,7 +159,7 @@ a:hover {
   justify-content: flex-start; 
 /*   padding: 20px;  */
 }
-}
+
 
 /* White translucent box behind logo */
 .logo-box {
