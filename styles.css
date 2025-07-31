@@ -61,6 +61,16 @@ a:hover {
   text-decoration: underline;
 }
 
+/* nav list and active remove to revert  */
+.nav-list {
+  display: none;
+}
+
+.nav-list.active {
+  display: flex;
+  flex-direction: column;
+}
+
 
 @media (max-width: 768px) {
   .main-header {
@@ -70,7 +80,28 @@ a:hover {
     white-space: normal;  */
   }
 
-  .main-header nav {
+  .burger {
+    display: block;
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  .nav-list a {
+    display: block;
+    padding: 10px 5px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    text-decoration: none;
+  }
+/*   bottom part to revert */
+/*   .main-header nav {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -83,7 +114,7 @@ a:hover {
     width: 80%;
     text-align: center;
     margin: 0 auto;
-  }
+  } */
 }
 
 
