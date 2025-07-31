@@ -1,3 +1,11 @@
+<!--
+  File: index.html
+  Description: This is the homepage of the CRIMA project website, giving an overview of project scope and funding sources.
+  Author: Sahba El-Shawa
+  Organization: Eurac Research
+  Last updated: July 2025
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,15 +17,13 @@
 </head>
 <body>
 
-  <!-- White background logo section -->
+  <!-- Banner header clickable for index page -->
   <a href="index.html" class="banner-link">
     <div class="logo-header"></div>
   </a>
       
-  <!-- Red top bar with nav -->
+  <!-- Navigation bar showing pages - resizes automatically to menu button on small screens -->
   <div class="main-header">
-<!--     <img src="crima_logo_simple.png" alt="CRIMA logo" height="30" /> -->
-<!--     <nav> -->
     <button class="burger" aria-label="Toggle menu">☰ Menu</button>
     <nav class="nav-list">
       <a href="index.html">About</a>
@@ -26,27 +32,18 @@
       <a href="timeline.html">Timeline</a>
       <a href="partners.html">Partners</a>
       <a href="news.html">News</a> 
-<!--       <a href="#funding">Funding</a>
-<!--     <nav class="navbar">
-      <div class="menu-toggle" id="mobile-menu">
-        &#9776; <span class="menu-text">Menu</span>
-      </div>
-      <ul class="nav-list">
-        <li><a href="index.html">About</a></li>
-        <li><a href="objectives.html">Objectives</a></li>
-        <li><a href="methodology.html">Methodology</a></li>
-        <li><a href="timeline.html">Timeline</a></li>
-        <li><a href="partners.html">Partners</a></li>
-      </ul> -->
     </nav>
   </div>
 
+  <!-- About section - describes project overview and funding -->
   <main>
     <section id="about">
       <h2>About the Project</h2>
+      
       <div class="images">
         <img src="assets/logos/crima_logo_blue.png" alt="CRIMA Logo" class="misclogo" />
       </div>
+      
       <p><strong>CRIMA</strong> focuses on the development of a decision-support system to enhance climate and environmental risk management. The system semantically integrates heterogeneous sources of information using a Virtual Knowledge Graph (VKG) and is powered by AI-supported querying of Big Earth Data.</p>
       <p>It aims to help non-technical users query and interpret complex environmental data through natural language and conceptual models like impact chains. The system will be evaluated in two application scenarios in the Alpine region: one on hydrometeorological events, and one on water scarcity.</p>
 
@@ -54,20 +51,22 @@
         <img src="assets/crima_schematic.png" alt="CRIMA Overview" class="diagram" />
       </div>
       
-
       <p><br><br>CRIMA is funded by the <strong>European Regional Development Fund (FESR)</strong>.</p>
       <div class="images">
         <img src="assets/logos/fesr_logos.png" alt="FESR Logos" class="misclogo" />
       </div>
+      
     </section>
   </main>
 
-  <!-- Footer -->
+  <!-- Footer - copyright statement and credit -->
   <footer>
     <p>&copy; 2025 <a href="https://www.eurac.edu/" target="_blank">Eurac Research</a></p>
     <p class="footer-credit">Website created by <a href="mailto:sahba.elshawa@eurac.edu">Sahba El-Shawa</a></p>
   </footer>
 
+
+<!-- Javascript to enable menu toggle on small screens -->
 <script src="script.js"></script>
 
 </body>
